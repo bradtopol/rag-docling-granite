@@ -1,0 +1,143 @@
+# Granite Language Models - Technical Overview
+
+## Introduction
+
+Granite is IBM's family of open-source large language models designed for enterprise applications. The Granite models are built with a focus on efficiency, accuracy, and responsible AI practices.
+
+## Model Variants
+
+### Granite 3 Dense 2B
+The Granite 3 Dense 2B model is a compact language model with 2 billion parameters. It offers:
+- Fast inference times on consumer hardware
+- Low memory footprint (approximately 2GB RAM)
+- Strong performance on general language tasks
+- Efficient fine-tuning capabilities
+
+### Granite 3 Dense 8B
+The Granite 3 Dense 8B model provides enhanced capabilities with 8 billion parameters:
+- Improved reasoning and comprehension
+- Better performance on complex tasks
+- Higher quality text generation
+- Suitable for more demanding applications
+
+## Key Features
+
+### Open Source
+All Granite models are released under permissive open-source licenses, allowing:
+- Free commercial use
+- Model customization and fine-tuning
+- Integration into proprietary systems
+- Community contributions and improvements
+
+### Enterprise Ready
+Granite models are designed for enterprise deployment:
+- Robust safety guardrails
+- Bias mitigation techniques
+- Transparent training data documentation
+- Regular security updates
+
+### Efficient Architecture
+The models use a dense transformer architecture optimized for:
+- Fast inference on CPUs and GPUs
+- Low latency responses
+- Efficient memory usage
+- Scalable deployment
+
+## Training Data
+
+Granite models are trained on diverse, high-quality datasets including:
+- Technical documentation and code
+- Scientific papers and research
+- Web content and articles
+- Books and educational materials
+
+The training process includes careful data curation to ensure quality and reduce biases.
+
+## Use Cases
+
+### Code Generation
+Granite models excel at programming tasks:
+- Writing functions and classes
+- Debugging and code review
+- Documentation generation
+- Code translation between languages
+
+### Question Answering
+The models provide accurate answers for:
+- Technical questions
+- General knowledge queries
+- Domain-specific information
+- Multi-step reasoning tasks
+
+### Text Generation
+Granite can generate various types of content:
+- Technical documentation
+- Reports and summaries
+- Creative writing
+- Email and communication drafts
+
+### RAG Applications
+Granite models are ideal for Retrieval-Augmented Generation:
+- Document question answering
+- Knowledge base queries
+- Context-aware responses
+- Citation and source tracking
+
+## Performance Metrics
+
+### Granite 3 Dense 2B
+- Parameters: 2 billion
+- Context window: 4096 tokens
+- Inference speed: ~50 tokens/second (CPU)
+- Memory requirement: 2GB RAM
+
+### Granite 3 Dense 8B
+- Parameters: 8 billion
+- Context window: 4096 tokens
+- Inference speed: ~20 tokens/second (CPU)
+- Memory requirement: 8GB RAM
+
+## Deployment Options
+
+### Local Deployment
+Run Granite models locally using:
+- Ollama for easy model management
+- llama.cpp for optimized inference
+- Hugging Face Transformers
+- Custom inference servers
+
+### Cloud Deployment
+Deploy on cloud platforms:
+- AWS, Azure, Google Cloud
+- Kubernetes clusters
+- Serverless functions
+- Container orchestration
+
+## Best Practices
+
+### Prompt Engineering
+For optimal results:
+- Provide clear, specific instructions
+- Include relevant context
+- Use examples when helpful
+- Structure prompts logically
+
+### Fine-tuning
+When customizing models:
+- Use high-quality training data
+- Monitor for overfitting
+- Validate on diverse test sets
+- Document training procedures
+
+### Safety and Ethics
+Ensure responsible use:
+- Implement content filtering
+- Monitor for biases
+- Respect user privacy
+- Follow ethical guidelines
+
+## Conclusion
+
+Granite language models offer a powerful, efficient, and responsible solution for enterprise AI applications. With their open-source nature, strong performance, and focus on safety, they are well-suited for a wide range of natural language processing tasks.
+
+For more information, visit the IBM Granite project page or explore the models on Hugging Face.

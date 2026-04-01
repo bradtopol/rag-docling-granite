@@ -3,6 +3,10 @@
 # Run the RAG Application
 # This script starts the RAG system with Docling and Granite
 
+# Get the directory where this script is located
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd "$SCRIPT_DIR"
+
 echo "Starting RAG System..."
 echo "================================"
 echo ""

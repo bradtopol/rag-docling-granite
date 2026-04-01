@@ -1,9 +1,9 @@
 # Core dependencies
 requests>=2.31.0
 
-# Document processing
-docling>=1.0.0
-docling-core>=1.0.0
+# Document processing (simplified - Docling has many dependencies)
+# For now, we'll use PyPDF2 as fallback
+PyPDF2>=3.0.0
 
 # Vector store and embeddings
 chromadb>=0.4.22
@@ -11,3 +11,7 @@ sentence-transformers>=2.3.1
 
 # Additional utilities
 numpy>=1.24.0
+
+# Optional: Add docling later if needed
+# docling>=1.0.0
+# docling-core>=1.0.0
