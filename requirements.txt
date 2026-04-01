@@ -1,8 +1,9 @@
 # Core dependencies
 requests>=2.31.0
 
-# Document processing (simplified - Docling has many dependencies)
-# For now, we'll use PyPDF2 as fallback
+# Document processing - Docling for advanced PDF processing
+# Note: Install Docling dependencies manually to avoid pyobjc compilation issues
+# See installation instructions below
 PyPDF2>=3.0.0
 
 # Vector store and embeddings
@@ -12,6 +13,7 @@ sentence-transformers>=2.3.1
 # Additional utilities
 numpy>=1.24.0
 
-# Optional: Add docling later if needed
-# docling>=1.0.0
-# docling-core>=1.0.0
+# Docling dependencies (install manually to avoid pyobjc issues):
+# pip install --no-deps docling docling-core docling-parse docling-ibm-models
+# pip install pandas beautifulsoup4 lxml python-docx python-pptx openpyxl filetype pypdfium2 rtree marko pylatexenc tabulate
+# pip install accelerate pluggy polyfactory jsonlines jsonref latex2mathml torchvision rapidocr
